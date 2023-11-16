@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div id="main-container">
+      <div class="header"></div>
+      <div class="calculator">
+        <div class="display">
+          <div class="secondary-display"></div>
+          <div class="main-display">
+            <div class="text-container"></div>
+          </div>
+        </div>
+        <div class="calc-buttons">
+          <div class="numbers">
+            <div class="clear-button" id="clear">AC</div>
+            <div class="delete-button" id="delete">
+              <svg
+                class="delete-button-icon"
+                width="30"
+                height="30"
+                viewBox="0 0 30 30"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_159_143)">
+                  <path
+                    d="M25.7053 5.42529H8.15916C7.55479 5.42529 6.96992 5.71773 6.5995 6.20512L0.75078 14.0034C0.224395 14.7053 0.224395 15.6411 0.75078 16.3429L6.5995 24.1412C6.96992 24.6286 7.55479 24.921 8.15916 24.921H25.7053C26.7776 24.921 27.6549 24.0437 27.6549 22.9714V7.37487C27.6549 6.3026 26.7776 5.42529 25.7053 5.42529ZM21.2408 20.515C20.461 21.2558 19.2327 21.2363 18.4724 20.4565L15.9574 17.9221L13.4425 20.4565C13.4425 20.4565 13.4035 20.4955 13.384 20.515C12.6042 21.2558 11.376 21.2363 10.6156 20.4565C9.87478 19.6767 9.89428 18.4484 10.6741 17.6881L13.2085 15.1732L10.6741 12.6582C10.3037 12.2878 10.0892 11.7809 10.0892 11.2545C10.0892 10.1823 10.9665 9.30494 12.0388 9.30494C12.5652 9.30494 13.0721 9.5194 13.4425 9.88981L15.9574 12.4243L18.4724 9.88981C18.8233 9.53889 19.3107 9.32444 19.8176 9.30494C20.3635 9.28545 20.8899 9.4999 21.2798 9.88981C22.0206 10.6696 22.0011 11.8979 21.2408 12.6582L18.7063 15.1732L21.2408 17.6881C21.2408 17.6881 21.2798 17.7271 21.2993 17.7466C22.0401 18.5264 22.0206 19.7547 21.2408 20.515Z"
+                    fill="white"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_159_143">
+                    <rect
+                      width="27.294"
+                      height="19.4957"
+                      fill="white"
+                      transform="translate(0.360924 5.42529)"
+                    />
+                  </clipPath>
+                </defs>
+              </svg>
+            </div>
+            <div class="operator-button divide" id="divide" data-value="÷">
+              ÷
+            </div>
+            <div class="number-button" id="1" data-value="1">1</div>
+            <div class="number-button" id="2" data-value="2">2</div>
+            <div class="number-button" id="3" data-value="3">3</div>
+            <div class="number-button" id="4" data-value="4">4</div>
+            <div class="number-button" id="5" data-value="5">5</div>
+            <div class="number-button" id="6" data-value="6">6</div>
+            <div class="number-button" id="7" data-value="7">7</div>
+            <div class="number-button" id="8" data-value="8">8</div>
+            <div class="number-button" id="9" data-value="9">9</div>
+            <div class="number-button" id="zero" data-value="0">0</div>
+            <div class="decimal-button" id="decimal" data-value=".">.</div>
+          </div>
+          <div class="operators">
+            <div class="operator-button multiply" id="multiply" data-value="*">
+              *
+            </div>
+            <div class="operator-button subtract" id="subtract" data-value="-">
+              -
+            </div>
+            <div class="operator-button add" id="add" data-value="+">+</div>
+            <div class="equal-button" id="equals" data-value="=">=</div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <a href="https://www.google.com" target="_blank" class="svg-icon">
+          <svg width="101" height="41.14">
+            <image href="images/name.svg" />
+          </svg>
+        </a>
+        <div class="title">
+          <span>Calculator</span>
+          <a href="https://www.google.com" target="_blank" class="svg-icon">
+            <svg width="34" height="34">
+              <image href="images/github-icon.svg" alt="GitHub icon" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
